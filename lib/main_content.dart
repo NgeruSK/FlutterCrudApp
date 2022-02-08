@@ -3,12 +3,11 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
-class RandomWords extends StatefulWidget{
+class  RandomWords extends StatefulWidget{
   @override
   RandomWordsState createState() => RandomWordsState();
 
 }
-
 class RandomWordsState extends State<RandomWords>
 {
   final _randomWordPairs = <WordPair>[];
